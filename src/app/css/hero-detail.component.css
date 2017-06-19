@@ -204,6 +204,7 @@ p {
   border-radius: 100px 100px 100px 100px;
   height: 50px;
   width: 50px;
+  cursor: pointer;
 }
 
 .heroes-talents .tier1 {

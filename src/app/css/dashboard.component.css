@@ -59,7 +59,7 @@ img {
 
 @media (max-width: 600px) {
   .module {
-    font-sze: 10px;
+    font-size: 10px;
     max-height: 75px;
   }
 }

@@ -15,13 +15,11 @@
 
 li {
   cursor: pointer;
-  positon: fixed;
-  /*background-color: #EEE;*/
 }
 
 .heroes li.selected:hover {
   background-color: #BBD8DC !important;
-  color.white;
+  color: white;
 }
 /*
 .heroes li:hover {

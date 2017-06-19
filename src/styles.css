@@ -12,7 +12,7 @@ h2, h3 {
 
 body {
   margin: 2em;
-  background-image:url(https://heroes.judgehype.com/screenshots/arkentass/news2014/432.jpg);
+  background-image:url('https://heroes.judgehype.com/screenshots/arkentass/news2014/432.jpg');
   -webkit-background-size: cover;
   background-size: cover;
 }
