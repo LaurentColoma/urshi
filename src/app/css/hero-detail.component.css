@@ -1,0 +1,600 @@
+button {
+  position: fixed;
+  margin: auto;
+  bottom: .5em;
+  left: 50%;
+  font-family: Arial;
+  background-color: #EEE;
+  border: none;
+  padding: 2.5px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;;
+}
+
+button: hover {
+  background-color: #CFD8DC;
+}
+
+button:disabled {
+  background-color: #EEE;
+  color: #CCC;
+  cursor: auto;
+}
+
+p {
+  color: white;
+}
+
+/* DIV HEROES PAGES START HERE */
+
+.heroes-pages h2 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+/* DIV HEROES PAGES END HERE */
+
+/* DIV HEROES ROLES START HERE */
+
+.heroes-roles {
+  width: 8%;
+  height: 20%;
+}
+
+.heroes-roles p {
+  font-size: 200%;
+  color: white;
+}
+
+/* DIV HEROES ROLES END HERE */
+
+/* DIV HEROES VITALS START HERE */
+.heroes-vitals {
+  width: 8%;
+  height: 40%;
+}
+
+.heroes-vitals p {
+  font-size: 75%;
+  margin: 1%;
+}
+
+/* DIV HEROES VITALS END HERE */
+
+/* DIV HEROES SPELLS START HERE*/
+
+.heroes-spells img {
+  height: 85%;
+  width: 85%;
+}
+
+/* TRAIT */
+.heroes-spells .trait {
+  position: absolute;
+  width: 10%;
+  top: 30%;
+  left: 67%;
+}
+
+.heroes-spells .trait span {
+  font-size: 75%;
+  color: white;
+  display: none;
+}
+
+.heroes-spells .trait img:hover + span {
+  display: inline-block;
+}
+
+/* Q SPELL */
+.heroes-spells .Q_spell {
+  position: absolute;
+  width: 10%;
+  top: 30%;
+  left: 25%;
+}
+
+.heroes-spells .Q_spell span {
+  font-size: 75%;
+  color: white;
+  display: none;
+}
+
+.heroes-spells .Q_spell img:hover + span {
+  display: inline-block;
+}
+
+/* W SPELL */
+.heroes-spells .W_spell {
+  position: absolute;
+  width: 10%;
+  top: 30%;
+  left: 33%;
+}
+
+.heroes-spells .W_spell span {
+  font-size: 75%;
+  color: black;
+  display: none;
+}
+
+.heroes-spells .W_spell img:hover + span {
+  display: inline-block;
+}
+
+/* E SPELL */
+.heroes-spells .E_spell {
+  position: absolute;
+  width: 10%;
+  top: 30%;
+  left: 41%;
+}
+
+.heroes-spells .E_spell span {
+  font-size: 75%;
+  color: white;
+  display: none;
+}
+
+.heroes-spells .E_spell img:hover + span {
+  display: inline-block;
+}
+
+/* R1 SPELL */
+.heroes-spells .R1_spell {
+  position: absolute;
+  width: 10%;
+  top: 30%;
+  left: 50%;
+}
+
+.heroes-spells .R1_spell span {
+  font-size: 75%;
+  color: black;
+  display: none;
+}
+
+.heroes-spells .R1_spell img:hover + span {
+  display: inline-block;
+}
+
+/* R2 SPELL */
+.heroes-spells .R2_spell {
+  position: absolute;
+  width: 10%;
+  top: 30%;
+  left: 58%;
+}
+
+.heroes-spells .R2_spell span {
+  font-size: 75%;
+  color: white;
+  display: none;
+}
+
+.heroes-spells .R2_spell img:hover + span {
+  display: inline-block;
+}
+
+/* R3 SPELL */
+.heroes-spells .R3_spell {
+  position: absolute;
+  width: 10%;
+  top: 20%;
+  left: 54%
+}
+
+.heroes-spells .R3_spell span {
+  font-size: 75%;
+  color: white;
+  display: none;
+}
+
+.heroes-spells .R3_spell img:hover + span {
+  display: inline-block;
+}
+
+/* DIV HEROES SPELLS END HERE */
+
+/* DIV HEROES TALENTS START HERE */
+
+
+.heroes-talents img {
+  border-radius: 100px 100px 100px 100px;
+  height: 50px;
+  width: 50px;
+}
+
+.heroes-talents .tier1 {
+  /*background-color: red;*/
+  width: 12.5%;
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier1 .t1-c1 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 250%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier1 .t1-c2 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 250%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier1 .t1-c3 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 250%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier1 .t1-c4 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 250%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier1 .t1-c5 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 250%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier2 {
+  /*background-color: blue;*/
+  width: 12.5%;
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier2 .t2-c1 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 148%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier2 .t2-c2 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 148%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier2 .t2-c3 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 148%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier2 .t2-c4 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 148%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier2 .t2-c5 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 148%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier3 {
+  /*background-color: green;*/
+  width: 12.5%;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier3 .t3-c1 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 48%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier3 .t3-c2 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 48%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier3 .t3-c3 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 48%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier3 .t3-c4 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 48%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier3 .t3-c5 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: 48%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier4 {
+  /*background-color: black;*/
+  width: 12.5%;
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier4 .t4-c1 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 245%;
+  left: -60%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier4 .t4-c2 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 245%;
+  left: -60%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier4 .t4-c3 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 245%;
+  left: -60%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier5 {
+  /*background-color: green;*/
+  width: 12.5%;
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier5 .t5-c1 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -166%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier5 .t5-c2 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -166%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier5 .t5-c3 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -166%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier5 .t5-c4 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -166%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier5 .t5-c5 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -166%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier6 {
+  /*background-color: blue;*/
+  width: 12.5%;
+  position: absolute;
+  top: 50%;
+  left: 71%;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier6 .t6-c1 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -266%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier6 .t6-c2 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -266%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier6 .t6-c3 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -266%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier6 .t6-c4 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -266%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier6 .t6-c5 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -266%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier7 {
+  /*background-color: red;*/
+  width: 12.5%;
+  position: absolute;
+  top: 50%;
+  left: 84%;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier7 .t7-c1 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -366%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier7 .t7-c2 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -366%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier7 .t7-c3 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -366%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier7 .t7-c4 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -366%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}
+
+.heroes-talents .tier7 .t7-c5 {
+  /*background-color: white;*/
+  position: absolute;
+  top: 125%;
+  left: -366%;
+  width: 700px;
+  height: 100px;
+  padding: .5em 0 0 .5em;
+}

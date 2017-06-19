@@ -1,0 +1,41 @@
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+}
+
+.heroes {
+  list-style: none;
+  -webkit-columns: 7;
+  -moz-columns: 7;
+  columns: 7;
+  margin: 0 0 0 20em;
+  padding: 0;
+  width: 760px;
+}
+
+li {
+  cursor: pointer;
+  positon: fixed;
+  /*background-color: #EEE;*/
+}
+
+.heroes li.selected:hover {
+  background-color: #BBD8DC !important;
+  color.white;
+}
+/*
+.heroes li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+*/
+.heroes .text {
+  position: relative;
+  top: -3px;
+}
+
+img {
+  border-radius: 100px 100px 100px 100px;
+  padding: 2em;
+}
