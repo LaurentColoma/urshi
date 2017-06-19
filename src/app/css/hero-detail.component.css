@@ -67,6 +67,7 @@ p {
 .heroes-spells img {
   height: 85%;
   width: 85%;
+  /*background-color: white;*/
 }
 
 /* TRAIT */
@@ -77,13 +78,16 @@ p {
   left: 67%;
 }
 
-.heroes-spells .trait span {
+.heroes-spells .trait .trait-desc {
   font-size: 75%;
   color: white;
   display: none;
+  position: absolute;
+  right: 45%;
+  top: -10%;
 }
 
-.heroes-spells .trait img:hover + span {
+.heroes-spells .trait img:hover + .trait-desc {
   display: inline-block;
 }
 
@@ -95,13 +99,16 @@ p {
   left: 25%;
 }
 
-.heroes-spells .Q_spell span {
+.heroes-spells .Q_spell .Q-desc {
   font-size: 75%;
   color: white;
   display: none;
+  position: absolute;
+  right: 45%;
+  top: -10%;
 }
 
-.heroes-spells .Q_spell img:hover + span {
+.heroes-spells .Q_spell img:hover + .Q-desc {
   display: inline-block;
 }
 
@@ -113,13 +120,16 @@ p {
   left: 33%;
 }
 
-.heroes-spells .W_spell span {
+.heroes-spells .W_spell .W-desc {
   font-size: 75%;
-  color: black;
+  color: white;
   display: none;
+  position: absolute;
+  right: 45%;
+  top: -10%;
 }
 
-.heroes-spells .W_spell img:hover + span {
+.heroes-spells .W_spell img:hover + .W-desc {
   display: inline-block;
 }
 
@@ -131,13 +141,16 @@ p {
   left: 41%;
 }
 
-.heroes-spells .E_spell span {
+.heroes-spells .E_spell .E-desc {
   font-size: 75%;
   color: white;
   display: none;
+  position: absolute;
+  right: 45%;
+  top: -10%;
 }
 
-.heroes-spells .E_spell img:hover + span {
+.heroes-spells .E_spell img:hover + .E-desc {
   display: inline-block;
 }
 
@@ -149,13 +162,16 @@ p {
   left: 50%;
 }
 
-.heroes-spells .R1_spell span {
+.heroes-spells .R1_spell .R1-desc {
   font-size: 75%;
-  color: black;
+  color: white;
   display: none;
+  position: absolute;
+  right: 45%;
+  top: -10%;
 }
 
-.heroes-spells .R1_spell img:hover + span {
+.heroes-spells .R1_spell img:hover + .R1-desc {
   display: inline-block;
 }
 
@@ -167,13 +183,16 @@ p {
   left: 58%;
 }
 
-.heroes-spells .R2_spell span {
+.heroes-spells .R2_spell .R2-desc {
   font-size: 75%;
   color: white;
   display: none;
+  position: absolute;
+  right: 45%;
+  top: -10%;
 }
 
-.heroes-spells .R2_spell img:hover + span {
+.heroes-spells .R2_spell img:hover + .R2-desc {
   display: inline-block;
 }
 
@@ -185,13 +204,16 @@ p {
   left: 54%
 }
 
-.heroes-spells .R3_spell span {
+.heroes-spells .R3_spell .R3-desc {
   font-size: 75%;
   color: white;
   display: none;
+  width: 200px;
+  right: 45%;
+  top: -10%;
 }
 
-.heroes-spells .R3_spell img:hover + span {
+.heroes-spells .R3_spell img:hover + .R3-desc {
   display: inline-block;
 }
 

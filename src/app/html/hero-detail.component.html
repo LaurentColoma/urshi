@@ -1,5 +1,5 @@
 <div *ngIf="hero" class="heroes-pages">
-  <h2>{{hero.name}}</h2>
+  <h2 style="color: white">{{hero.name}}</h2>
   <div class ="heroes-roles">
     <p>{{hero.desc}}</p>
   </div>
@@ -16,13 +16,34 @@
     <p *ngIf="hero.scaleH !== 0">Scaling Health: {{hero.scaleH}}%</p>
   </div>
   <div class="heroes-spells">
-    <div *ngIf="hero.trait !== 0" class="trait"><img src="{{hero.trait_img}}"/><span>{{hero.trait}}</span></div>
-    <div *ngIf="hero.Q_spell !== 0" class="Q_spell"><img src="{{hero.Q_img}}"/><span>{{hero.Q_spell}}</span></div>
-    <div *ngIf="hero.W_spell !== 0" class="W_spell"><img src="{{hero.W_img}}"/><span>{{hero.W_spell}}</span></div>
-    <div *ngIf="hero.E_spell !== 0" class="E_spell"><img src="{{hero.E_img}}"/><span>{{hero.E_spell}}</span></div>
-    <div *ngIf="hero.R1_spell !== 0" class="R1_spell"><img src="{{hero.R1_img}}"/><span>{{hero.R1_spell}}</span></div>
-    <div *ngIf="hero.R2_spell !== 0" class="R2_spell"><img src="{{hero.R2_img}}"/><span>{{hero.R2_spell}}</span></div>
-    <div *ngIf="hero.R3_spell !== 0" class="R3_spell"><img src="{{hero.R3_img}}"/><span>{{hero.R3_spell}}</span></div>
+    <div *ngIf="hero.trait !== 0" class="trait">
+      <img src="{{hero.trait_img}}"/>
+      <div class="trait-desc">{{hero.trait}}</div>
+    </div>
+    <div *ngIf="hero.Q_spell !== 0" class="Q_spell">
+      <img src="{{hero.Q_img}}"/>
+      <div class="Q-desc">{{hero.Q_spell}}</div>
+    </div>
+    <div *ngIf="hero.W_spell !== 0" class="W_spell">
+      <img src="{{hero.W_img}}"/>
+      <div class="W-desc">{{hero.W_spell}}</div>
+    </div>
+    <div *ngIf="hero.E_spell !== 0" class="E_spell">
+      <img src="{{hero.E_img}}"/>
+      <div class="E-desc">{{hero.E_spell}}</div>
+    </div>
+    <div *ngIf="hero.R1_spell !== 0" class="R1_spell">
+      <img src="{{hero.R1_img}}"/>
+      <div class="R1-desc">{{hero.R1_spell}}</div>
+    </div>
+    <div *ngIf="hero.R2_spell !== 0" class="R2_spell">
+      <img src="{{hero.R2_img}}"/>
+      <div class="R2-desc">{{hero.R2_spell}}</div>
+    </div>
+    <div *ngIf="hero.R3_spell !== 0" class="R3_spell">
+      <img src="{{hero.R3_img}}"/>
+      <div class="R3-desc">{{hero.R3_spell}}</div>
+    </div>
   </div>
   <div class="heroes-talents">
     <!-- TIER 1 START HERE -->
