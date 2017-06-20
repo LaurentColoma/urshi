@@ -20,6 +20,7 @@ var HeroDetailComponent = (function () {
         this.route = route;
         this.location = location;
         this.selectedTalent = -1;
+        this.selectedTier1 = -1;
     }
     HeroDetailComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -30,6 +31,9 @@ var HeroDetailComponent = (function () {
     };
     HeroDetailComponent.prototype.selectTalent = function (talent) {
         this.selectedTalent = talent;
+    };
+    HeroDetailComponent.prototype.selectTier1 = function (talent) {
+        this.selectedTier1 = talent;
     };
     HeroDetailComponent.prototype.goBack = function () {
         this.location.back();

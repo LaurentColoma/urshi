@@ -67,7 +67,7 @@ p {
 .heroes-spells img {
   height: 85%;
   width: 85%;
-  /*background-color: white;*/
+  background-color: white;
 }
 
 /* TRAIT */
@@ -221,7 +221,6 @@ p {
 
 /* DIV HEROES TALENTS START HERE */
 
-
 .heroes-talents img {
   border-radius: 100px 100px 100px 100px;
   height: 50px;
@@ -230,7 +229,7 @@ p {
 }
 
 .heroes-talents .tier1 {
-  /*background-color: red;*/
+  background-color: red;
   width: 12.5%;
   position: absolute;
   top: 50%;
@@ -239,7 +238,7 @@ p {
 }
 
 .heroes-talents .tier1 .t1-c1 {
-  /*background-color: white;*/
+  background-color: red;
   position: absolute;
   top: 125%;
   left: 250%;
@@ -249,7 +248,7 @@ p {
 }
 
 .heroes-talents .tier1 .t1-c2 {
-  /*background-color: white;*/
+  background-color: red;
   position: absolute;
   top: 125%;
   left: 250%;
@@ -259,7 +258,7 @@ p {
 }
 
 .heroes-talents .tier1 .t1-c3 {
-  /*background-color: white;*/
+  background-color: red;
   position: absolute;
   top: 125%;
   left: 250%;
@@ -269,7 +268,7 @@ p {
 }
 
 .heroes-talents .tier1 .t1-c4 {
-  /*background-color: white;*/
+  background-color: red;
   position: absolute;
   top: 125%;
   left: 250%;
@@ -279,7 +278,7 @@ p {
 }
 
 .heroes-talents .tier1 .t1-c5 {
-  /*background-color: white;*/
+  background-color: red;
   position: absolute;
   top: 125%;
   left: 250%;
@@ -289,7 +288,7 @@ p {
 }
 
 .heroes-talents .tier2 {
-  /*background-color: blue;*/
+  background-color: blue;
   width: 12.5%;
   position: absolute;
   top: 50%;
@@ -298,7 +297,7 @@ p {
 }
 
 .heroes-talents .tier2 .t2-c1 {
-  /*background-color: white;*/
+  background-color: blue;
   position: absolute;
   top: 125%;
   left: 148%;
@@ -308,7 +307,7 @@ p {
 }
 
 .heroes-talents .tier2 .t2-c2 {
-  /*background-color: white;*/
+  background-color: blue;
   position: absolute;
   top: 125%;
   left: 148%;
@@ -318,7 +317,7 @@ p {
 }
 
 .heroes-talents .tier2 .t2-c3 {
-  /*background-color: white;*/
+  background-color: blue;
   position: absolute;
   top: 125%;
   left: 148%;
@@ -328,7 +327,7 @@ p {
 }
 
 .heroes-talents .tier2 .t2-c4 {
-  /*background-color: white;*/
+  background-color: blue;
   position: absolute;
   top: 125%;
   left: 148%;
@@ -338,7 +337,7 @@ p {
 }
 
 .heroes-talents .tier2 .t2-c5 {
-  /*background-color: white;*/
+  background-color: blue;
   position: absolute;
   top: 125%;
   left: 148%;
@@ -348,7 +347,7 @@ p {
 }
 
 .heroes-talents .tier3 {
-  /*background-color: green;*/
+  background-color: green;
   width: 12.5%;
   position: absolute;
   top: 50%;
@@ -357,7 +356,7 @@ p {
 }
 
 .heroes-talents .tier3 .t3-c1 {
-  /*background-color: white;*/
+  background-color: green;
   position: absolute;
   top: 125%;
   left: 48%;
@@ -367,7 +366,7 @@ p {
 }
 
 .heroes-talents .tier3 .t3-c2 {
-  /*background-color: white;*/
+  background-color: green;
   position: absolute;
   top: 125%;
   left: 48%;
@@ -377,7 +376,7 @@ p {
 }
 
 .heroes-talents .tier3 .t3-c3 {
-  /*background-color: white;*/
+  background-color: green;
   position: absolute;
   top: 125%;
   left: 48%;
@@ -387,7 +386,7 @@ p {
 }
 
 .heroes-talents .tier3 .t3-c4 {
-  /*background-color: white;*/
+  background-color: green;
   position: absolute;
   top: 125%;
   left: 48%;
@@ -397,7 +396,7 @@ p {
 }
 
 .heroes-talents .tier3 .t3-c5 {
-  /*background-color: white;*/
+  background-color: green;
   position: absolute;
   top: 125%;
   left: 48%;
@@ -407,7 +406,7 @@ p {
 }
 
 .heroes-talents .tier4 {
-  /*background-color: black;*/
+  background-color: black;
   width: 12.5%;
   position: absolute;
   top: 50%;
@@ -416,7 +415,7 @@ p {
 }
 
 .heroes-talents .tier4 .t4-c1 {
-  /*background-color: white;*/
+  background-color: black;
   position: absolute;
   top: 245%;
   left: -60%;
@@ -426,7 +425,7 @@ p {
 }
 
 .heroes-talents .tier4 .t4-c2 {
-  /*background-color: white;*/
+  background-color: black;
   position: absolute;
   top: 245%;
   left: -60%;
@@ -436,7 +435,7 @@ p {
 }
 
 .heroes-talents .tier4 .t4-c3 {
-  /*background-color: white;*/
+  background-color: black;
   position: absolute;
   top: 245%;
   left: -60%;
@@ -446,7 +445,7 @@ p {
 }
 
 .heroes-talents .tier5 {
-  /*background-color: green;*/
+  background-color: green;
   width: 12.5%;
   position: absolute;
   top: 50%;
@@ -455,7 +454,7 @@ p {
 }
 
 .heroes-talents .tier5 .t5-c1 {
-  /*background-color: white;*/
+  background-color: green;
   position: absolute;
   top: 125%;
   left: -166%;
@@ -465,7 +464,7 @@ p {
 }
 
 .heroes-talents .tier5 .t5-c2 {
-  /*background-color: white;*/
+  background-color: green;
   position: absolute;
   top: 125%;
   left: -166%;
@@ -475,7 +474,7 @@ p {
 }
 
 .heroes-talents .tier5 .t5-c3 {
-  /*background-color: white;*/
+  background-color: green;
   position: absolute;
   top: 125%;
   left: -166%;
@@ -485,7 +484,7 @@ p {
 }
 
 .heroes-talents .tier5 .t5-c4 {
-  /*background-color: white;*/
+  background-color: green;
   position: absolute;
   top: 125%;
   left: -166%;
@@ -495,7 +494,7 @@ p {
 }
 
 .heroes-talents .tier5 .t5-c5 {
-  /*background-color: white;*/
+  background-color: green;
   position: absolute;
   top: 125%;
   left: -166%;
@@ -505,7 +504,7 @@ p {
 }
 
 .heroes-talents .tier6 {
-  /*background-color: blue;*/
+  background-color: blue;
   width: 12.5%;
   position: absolute;
   top: 50%;
@@ -514,7 +513,7 @@ p {
 }
 
 .heroes-talents .tier6 .t6-c1 {
-  /*background-color: white;*/
+  background-color: blue;
   position: absolute;
   top: 125%;
   left: -266%;
@@ -524,7 +523,7 @@ p {
 }
 
 .heroes-talents .tier6 .t6-c2 {
-  /*background-color: white;*/
+  background-color: blue;
   position: absolute;
   top: 125%;
   left: -266%;
@@ -534,7 +533,7 @@ p {
 }
 
 .heroes-talents .tier6 .t6-c3 {
-  /*background-color: white;*/
+  background-color: blue;
   position: absolute;
   top: 125%;
   left: -266%;
@@ -544,7 +543,7 @@ p {
 }
 
 .heroes-talents .tier6 .t6-c4 {
-  /*background-color: white;*/
+  background-color: blue;
   position: absolute;
   top: 125%;
   left: -266%;
@@ -554,7 +553,7 @@ p {
 }
 
 .heroes-talents .tier6 .t6-c5 {
-  /*background-color: white;*/
+  background-color: blue;
   position: absolute;
   top: 125%;
   left: -266%;
@@ -564,7 +563,7 @@ p {
 }
 
 .heroes-talents .tier7 {
-  /*background-color: red;*/
+  background-color: red;
   width: 12.5%;
   position: absolute;
   top: 50%;
@@ -573,7 +572,7 @@ p {
 }
 
 .heroes-talents .tier7 .t7-c1 {
-  /*background-color: white;*/
+  background-color: red;
   position: absolute;
   top: 125%;
   left: -366%;
@@ -583,7 +582,7 @@ p {
 }
 
 .heroes-talents .tier7 .t7-c2 {
-  /*background-color: white;*/
+  background-color: red;
   position: absolute;
   top: 125%;
   left: -366%;
@@ -593,7 +592,7 @@ p {
 }
 
 .heroes-talents .tier7 .t7-c3 {
-  /*background-color: white;*/
+  background-color: red;
   position: absolute;
   top: 125%;
   left: -366%;
@@ -603,7 +602,7 @@ p {
 }
 
 .heroes-talents .tier7 .t7-c4 {
-  /*background-color: white;*/
+  background-color: red;
   position: absolute;
   top: 125%;
   left: -366%;
@@ -613,7 +612,7 @@ p {
 }
 
 .heroes-talents .tier7 .t7-c5 {
-  /*background-color: white;*/
+  background-color: red;
   position: absolute;
   top: 125%;
   left: -366%;

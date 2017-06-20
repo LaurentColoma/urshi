@@ -3,6 +3,7 @@
   <div class ="heroes-roles">
     <p>{{hero.desc}}</p>
   </div>
+ <!-- HEROES VITALS START HERE -->
  <div class="heroes-vitals">
     <p *ngIf="hero.life !== 0">Health Pool: {{hero.life}}</p>
     <p *ngIf="hero.regen !== 0">Health Regeneration: {{hero.regen}}/sec</p>
@@ -15,6 +16,8 @@
     <p *ngIf="hero.scaleA !== 0">Scaling AA: {{hero.scaleA}}%</p>
     <p *ngIf="hero.scaleH !== 0">Scaling Health: {{hero.scaleH}}%</p>
   </div>
+  <!-- HEROES VITALS END HERE -->
+  <!-- HEROES SPELLS START HERE -->
   <div class="heroes-spells">
     <div *ngIf="hero.trait !== 0" class="trait">
       <img src="{{hero.trait_img}}"/>
@@ -45,39 +48,41 @@
       <div class="R3-desc">{{hero.R3_spell}}</div>
     </div>
   </div>
+  <!-- HEROES SPELLS END HERE -->
+  <!-- HEROES TALENTS START HERE -->
   <div class="heroes-talents">
     <!-- TIER 1 START HERE -->
     <div class="tier1">
       <div *ngIf="hero.tier1choice1 !== 0" class="tier1_choice1">
-	<img src="{{hero.tier1choice1img}}" (click)="selectTalent(11)"><span>{{hero.tier1choice1}}</span>
+	<img src="{{hero.tier1choice1img}}" (click)="selectTalent(11)" (click)="selectTier1(1)"><span>{{hero.tier1choice1}}</span>
 	<div *ngIf="selectedTalent === 11" class="t1-c1">
 	  <p><img src="{{hero.tier1choice1img}}">{{hero.tier1choice1}}</p>
 	  <p>{{hero.desc1choice1}}</p>
 	</div>
       </div>
       <div *ngIf="hero.tier1choice2 !== 0" class="tier1_choice2">
-	<img src="{{hero.tier1choice2img}}" (click)="selectTalent(12)"><span>{{hero.tier1choice2}}</span>
+	<img src="{{hero.tier1choice2img}}" (click)="selectTalent(12)" (click)="selectTier1(2)"><span>{{hero.tier1choice2}}</span>
 	<div *ngIf="selectedTalent === 12" class="t1-c2">
 	  <p><img src="{{hero.tier1choice2img}}">{{hero.tier1choice2}}</p>
           <p>{{hero.desc1choice2}}</p>
 	</div>
       </div>
       <div *ngIf="hero.tier1choice3 !== 0" class="tier1_choice3">
-	<img src="{{hero.tier1choice3img}}" (click)="selectTalent(13)"><span>{{hero.tier1choice3}}</span>
+	<img src="{{hero.tier1choice3img}}" (click)="selectTalent(13)" (click)="selectTier1(3)"><span>{{hero.tier1choice3}}</span>
 	<div *ngIf="selectedTalent === 13" class="t1-c3">
 	  <p><img src="{{hero.tier1choice3img}}">{{hero.tier1choice3}}</p>
           <p>{{hero.desc1choice3}}</p>
 	</div>
       </div>
       <div *ngIf="hero.tier1choice4 !== 0" class="tier1_choice4">
-	<img src="{{hero.tier1choice4img}}" (click)="selectTalent(14)"><span>{{hero.tier1choice4}}</span>
+	<img src="{{hero.tier1choice4img}}" (click)="selectTalent(14)" (click)="selectTier1(4)"><span>{{hero.tier1choice4}}</span>
 	<div *ngIf="selectedTalent === 14" class="t1-c4">
 	  <p><img src="{{hero.tier1choice4img}}">{{hero.tier1choice4}}</p>
           <p>{{hero.desc1choice4}}</p>
 	</div>
       </div>
       <div *ngIf="hero.tier1choice5 !== 0" class="tier1_choice5">
-	<img src="{{hero.tier1choice5img}}" (click)="selectTalent(15)"><span>{{hero.tier1choice5}}</span>
+	<img src="{{hero.tier1choice5img}}" (click)="selectTalent(15)" (click)="selectTier1(5)"><span>{{hero.tier1choice5}}</span>
 	<div *ngIf="selectedTalent == 15" class="t1-c5">
           <p><img src="{{hero.tier1choice5img}}">{{hero.tier1choice5}}</p>
           <p>{{hero.desc1choice5}}</p>
@@ -306,6 +311,18 @@
     </div>
     <!-- TIER 7 END HERE -->
   </div>
+  <!-- HEROES TALENTS END HERE -->
+  <!-- TALENT CALCULATOR START HERE -->
+  <div class="talents-calculator">
+    <div *ngIf="selectedTier1 === 1"class="tier1">
+      <div class="t11">
+	<p>TIER 1</p>
+	<p><img src="{{hero.tier1choice1img}}"></p>
+        <p>{{hero.tier1choice1}}</p>
+      </div>
+    </div>
+  </div>
+  <!-- TALENT CALCULATOR END HERE
   <!--<button (click)="goBack()">Back</button>
   <button (click)="save()">Save</button>-->
 </div>

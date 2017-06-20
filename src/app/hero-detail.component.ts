@@ -14,7 +14,8 @@ import { HeroService } from './hero.service';
 
 export class HeroDetailComponent implements OnInit {
 	@Input() hero : Hero;
-	selectedTalent = -1
+	selectedTalent = -1;
+	selectedTier1 = -1;
 	
 	constructor (
 	  private heroService: HeroService,
@@ -31,6 +32,10 @@ export class HeroDetailComponent implements OnInit {
 
 	selectTalent(talent: number) {
 	  this.selectedTalent = talent;
+	}
+
+	selectTier1(talent: number) {
+	  this.selectedTier1 = talent;
 	}
 
 	goBack(): void {
