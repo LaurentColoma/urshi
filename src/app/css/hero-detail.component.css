@@ -633,8 +633,16 @@ p {
   left: 12.5%;
 }
 
+.talents-calculator .talent-desc {
+  display: none;
+}
+
 .talents-calculator img {
   border-radius: 100px 100px 100px 100px;
   width: 100px;
   height: 100px;
+}
+
+.talents-calculator img:hover + .talent-desc {
+  display: inline-block;
 }
