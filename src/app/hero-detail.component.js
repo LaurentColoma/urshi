@@ -21,6 +21,12 @@ var HeroDetailComponent = (function () {
         this.location = location;
         this.selectedTalent = -1;
         this.selectedTier1 = -1;
+        this.selectedTier2 = -1;
+        this.selectedTier3 = -1;
+        this.selectedTier4 = -1;
+        this.selectedTier5 = -1;
+        this.selectedTier6 = -1;
+        this.selectedTier7 = -1;
     }
     HeroDetailComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -34,6 +40,24 @@ var HeroDetailComponent = (function () {
     };
     HeroDetailComponent.prototype.selectTier1 = function (talent) {
         this.selectedTier1 = talent;
+    };
+    HeroDetailComponent.prototype.selectTier2 = function (talent) {
+        this.selectedTier2 = talent;
+    };
+    HeroDetailComponent.prototype.selectTier3 = function (talent) {
+        this.selectedTier3 = talent;
+    };
+    HeroDetailComponent.prototype.selectTier4 = function (talent) {
+        this.selectedTier4 = talent;
+    };
+    HeroDetailComponent.prototype.selectTier5 = function (talent) {
+        this.selectedTier5 = talent;
+    };
+    HeroDetailComponent.prototype.selectTier6 = function (talent) {
+        this.selectedTier6 = talent;
+    };
+    HeroDetailComponent.prototype.selectTier7 = function (talent) {
+        this.selectedTier7 = talent;
     };
     HeroDetailComponent.prototype.goBack = function () {
         this.location.back();

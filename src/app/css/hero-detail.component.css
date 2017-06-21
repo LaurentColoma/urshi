@@ -630,7 +630,6 @@ p {
 .talents-calculator {
   position: absolute;
   top: 100%;
-  left: 12.5%;
 }
 
 .talents-calculator .talent-desc {
@@ -645,4 +644,88 @@ p {
 
 .talents-calculator img:hover + .talent-desc {
   display: inline-block;
+}
+
+.talents-calculator .tier1 {
+  position: absolute;
+  left: 500%;
+}
+
+.talents-calculator .tier1 .talent-desc {
+  position: absolute;
+  width: 1000px;
+  top: -25%;
+  left: -10%;
+}
+
+.talents-calculator .tier2 {
+  position: absolute;
+  left: 700%;
+}
+
+.talents-calculator .tier2 .talent-desc {
+  position: absolute;
+  width: 1000px;
+  top: -25%;
+  left: -10%;
+}
+
+.talents-calculator .tier3 {
+  position: absolute;
+  left: 900%;
+}
+
+.talents-calculator .tier3 .talent-desc {
+  position: absolute;
+  width: 1000px;
+  top: -25%;
+  left: -10%;
+}
+
+.talents-calculator .tier4 {
+  position: absolute;
+  left: 1100%;
+}
+
+.talents-calculator .tier4 .talent-desc {
+  position: absolute;
+  width: 1000px;
+  top: -25%;
+  left: -10%;
+}
+
+.talents-calculator .tier5 {
+  position: absolute;
+  left: 1300%;
+}
+
+.talents-calculator .tier5 .talent-desc {
+  position: absolute;
+  width: 1000px;
+  top: -25%;
+  left: -10%;
+}
+
+.talents-calculator .tier6 {
+  position: absolute;
+  left: 1500%;
+}
+
+.talents-calculator .tier6 .talent-desc {
+  position: absolute;
+  width: 1000px;
+  top: -25%;
+  left: -10%;
+}
+
+.talents-calculator .tier7 {
+  position: absolute;
+  left: 1700%;
+}
+
+.talents-calculator .tier7 .talent-desc {
+  position: absolute;
+  width: 1000px;
+  top: -25%;
+  left: -10%;
 }
