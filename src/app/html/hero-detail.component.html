@@ -316,9 +316,32 @@
   <div class="talents-calculator">
     <div *ngIf="selectedTier1 === 1"class="tier1">
       <div class="t11">
-	<p>TIER 1</p>
-	<p><img src="{{hero.tier1choice1img}}"></p>
+	<img src="{{hero.tier1choice1img}}">
         <p>{{hero.tier1choice1}}</p>
+      </div>
+    </div>
+    <div *ngIf="selectedTier1 === 2"class="tier1">
+      <div class="t12">
+        <img src="{{hero.tier1choice2img}}">
+        <p>{{hero.tier1choice2}}</p>
+      </div>
+    </div>
+    <div *ngIf="selectedTier1 === 3"class="tier1">
+      <div class="t12">
+        <img src="{{hero.tier1choice3img}}">
+        <p>{{hero.tier1choice3}}</p>
+      </div>
+    </div>
+    <div *ngIf="selectedTier1 === 4"class="tier1">
+      <div class="t12">
+        <img src="{{hero.tier1choice4img}}">
+        <p>{{hero.tier1choice4}}</p>
+      </div>
+    </div>
+    <div *ngIf="selectedTier1 === 5"class="tier1">
+      <div class="t12">
+        <img src="{{hero.tier1choice5img}}">
+        <p>{{hero.tier1choice5}}</p>
       </div>
     </div>
   </div>
