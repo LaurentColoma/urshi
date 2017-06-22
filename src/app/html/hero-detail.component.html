@@ -281,28 +281,28 @@
         </div>
       </div>
       <div *ngIf="hero.tier7choice2 !== 0" class="tier7_choice2">
-        <img src="{{hero.tier7choice2img}}" (click)="selectTalent(72)"><span>{{hero.tier7choice2}}</span>
+        <img src="{{hero.tier7choice2img}}" (click)="selectTalent(72)" (click)="selectTier7(2)"><span>{{hero.tier7choice2}}</span>
         <div *ngIf="selectedTalent === 72" class="t7-c2">
           <p><img src="{{hero.tier7choice2img}}">{{hero.tier7choice2}}</p>
           <p>{{hero.desc7choice2}}</p>
         </div>
       </div>
       <div *ngIf="hero.tier7choice3 !== 0" class="tier7_choice3">
-        <img src="{{hero.tier7choice3img}}" (click)="selectTalent(73)"><span>{{hero.tier7choice3}}</span>
+        <img src="{{hero.tier7choice3img}}" (click)="selectTalent(73)" (click)="selectTier7(3)"><span>{{hero.tier7choice3}}</span>
         <div *ngIf="selectedTalent === 73" class="t7-c3">
           <p><img src="{{hero.tier7choice3img}}">{{hero.tier7choice3}}</p>
           <p>{{hero.desc7choice3}}</p>
         </div>
       </div>
       <div *ngIf="hero.tier7choice4 !== 0" class="tier7_choice4">
-        <img src="{{hero.tier7choice4img}}" (click)="selectTalent(74)"><span>{{hero.tier7choice4}}</span>
+        <img src="{{hero.tier7choice4img}}" (click)="selectTalent(74)" (click)="selectTier7(4)"><span>{{hero.tier7choice4}}</span>
         <div *ngIf="selectedTalent === 74" class="t7-c4">
           <p><img src="{{hero.tier7choice4img}}">{{hero.tier7choice4}}</p>
           <p>{{hero.desc7choice4}}</p>
         </div>
       </div>
       <div *ngIf="hero.tier7choice5 !== 0" class="tier7_choice5">
-        <img src="{{hero.tier7choice5img}}" (click)="selectTalent(75)"><span>{{hero.tier7choice5}}</span>
+        <img src="{{hero.tier7choice5img}}" (click)="selectTalent(75)" (click)="selectTier7(5)"><span>{{hero.tier7choice5}}</span>
 	<div *ngIf="selectedTalent === 75" class="t7-c5">
           <p><img src="{{hero.tier7choice5img}}">{{hero.tier7choice5}}</p>
           <p>{{hero.desc7choice5}}</p>
@@ -536,6 +536,34 @@
           <img src="{{hero.tier7choice1img}}">
           <div class="talent-desc">{{hero.desc7choice1}}</div>
           <p>{{hero.tier7choice1}}</p>
+        </div>
+      </div>
+      <div *ngIf="selectedTier7 === 2">
+        <div class="72">
+          <img src="{{hero.tier7choice2img}}">
+          <div class="talent-desc">{{hero.desc7choice2}}</div>
+          <p>{{hero.tier7choice2}}</p>
+        </div>
+      </div>
+      <div *ngIf="selectedTier7 === 3">
+        <div class="73">
+          <img src="{{hero.tier7choice3img}}">
+          <div class="talent-desc">{{hero.desc7choice3}}</div>
+          <p>{{hero.tier7choice3}}</p>
+        </div>
+      </div>
+      <div *ngIf="selectedTier7 === 4">
+        <div class="74">
+          <img src="{{hero.tier7choice4img}}">
+          <div class="talent-desc">{{hero.desc7choice4}}</div>
+          <p>{{hero.tier7choice4}}</p>
+        </div>
+      </div>
+      <div *ngIf="selectedTier7 === 5">
+        <div class="75">
+          <img src="{{hero.tier7choice5img}}">
+          <div class="talent-desc">{{hero.desc7choice5}}</div>
+          <p>{{hero.tier7choice5}}</p>
         </div>
       </div>
     </div>
