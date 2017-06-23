@@ -15,7 +15,7 @@ AboutMe = __decorate([
     core_1.Component({
         selector: 'about-me',
         templateUrl: "./html/about-me.component.html",
-        styleUrls: ['./css/dashboard.component.css']
+        styleUrls: ['./css/about-me.component.css']
     })
 ], AboutMe);
 exports.AboutMe = AboutMe;

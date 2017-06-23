@@ -4,17 +4,17 @@
 }
 
 .heroes {
+  /*background-color: white;*/
   list-style: none;
   -webkit-columns: 7;
   -moz-columns: 7;
   columns: 7;
-  margin: 0 0 0 20em;
-  padding: 0;
-  width: 760px;
-}
-
-li {
-  cursor: pointer;
+  height: 1000px;
+  width: 1000px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .heroes li.selected:hover {
@@ -34,6 +34,9 @@ li {
 }
 
 img {
-  border-radius: 100px 100px 100px 100px;
-  padding: 2em;
+  padding: .5em 2em .5em 2em;
+  max-height: 75px;
+  max-width: 75px; 
+  border-radius: 150px 100px 150px 100px;
+  cursor: pointer;
 }
