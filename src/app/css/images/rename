@@ -1,0 +1,18 @@
+#!/bin/bash
+
+img=0
+imgs=$(ls | grep -E '^[0-9]+\.(png|jpg|jpeg)$')
+while [ 1 ]
+do
+	echo -n "level: "
+	read level
+	echo -n "images: "
+	read images
+	for nb in $(seq $images)
+	do
+		n=$(($img + $nb))
+		file=$(echo "$imgs" | grep -E "^$n\.")
+		mv "$file" "level$level-$nb.$(echo "$file" | cut -d '.' -f2)"
+	done
+	img=$(($img + $images))
+done

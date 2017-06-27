@@ -54,7 +54,7 @@
     <!-- TIER 1 START HERE -->
     <div class="tier1">
       <div *ngIf="hero.tier1choice1 !== 0" class="tier1_choice1">
-	<img src="{{hero.tier1choice1img}}" (click)="selectTalent(11)" (click)="selectTier1(1)"><span>{{hero.tier1choice1}}</span>
+	<div class="test" (click)="selectTalent(11)" (click)="selectTier1(1)"><img src="{{hero.tier1choice1img}}"><span>{{hero.tier1choice1}}</span></div>
 	<div *ngIf="selectedTalent === 11" class="t1-c1">
 	  <p><img src="{{hero.tier1choice1img}}">{{hero.tier1choice1}}</p>
 	  <p>{{hero.desc1choice1}}</p>

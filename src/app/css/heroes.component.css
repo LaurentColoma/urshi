@@ -4,11 +4,13 @@
 }
 
 .heroes {
-  /*background-color: white;*/
+  background-image:radial-gradient(#623AD1FF, #230083FF);
+  border-style: double;
+  border-color: #624BAE;
   list-style: none;
-  -webkit-columns: 7;
-  -moz-columns: 7;
-  columns: 7;
+  -webkit-column-count: 7;
+  -moz-column-count: 7;
+  column-count: 7;
   height: 1000px;
   width: 1000px;
   position: absolute;
@@ -17,26 +19,20 @@
   margin: auto;
 }
 
-.heroes li.selected:hover {
-  background-color: #BBD8DC !important;
-  color: white;
-}
-/*
-.heroes li:hover {
-  color: #607D8B;
-  background-color: #DDD;
-  left: .1em;
-}
-*/
 .heroes .text {
   position: relative;
   top: -3px;
 }
 
 img {
-  padding: .5em 2em .5em 2em;
-  max-height: 75px;
-  max-width: 75px; 
+  height: 75px;
+  width: 75px;
   border-radius: 150px 100px 150px 100px;
   cursor: pointer;
+  border: 1px solid #624BAE;
+  margin: 5px 2px 5px 2px;
+}
+
+img:hover {
+  border: 1px solid white;
 }

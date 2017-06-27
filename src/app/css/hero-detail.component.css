@@ -9,7 +9,7 @@ button {
   padding: 2.5px 20px;
   border-radius: 4px;
   cursor: pointer;
-  cursor: hand;;
+  cursor: hand;
 }
 
 button: hover {
