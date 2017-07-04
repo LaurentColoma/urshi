@@ -22,16 +22,8 @@ button:disabled {
   cursor: auto;
 }
 
-p {
-  color: white;
-}
-
 /* DIV HEROES PAGES START HERE */
 
-.heroes-pages h2 {
-  text-align: center;
-  margin-top: 0px;
-}
 
 /* DIV HEROES PAGES END HERE */
 
@@ -39,18 +31,17 @@ p {
 
 .heroes-roles {
   position: relative;
-  width: 8%;
-  height: 20%;
+  /*background-color: black;*/
 }
 
-.heroes-roles p {
-  font-size: 200%;
-  color: white;
+.heroes-roles h2, h3 {
+  text-align: center;
+  margin-top: 0px;
 }
 
 /* DIV HEROES ROLES END HERE */
 
-/* DIV HEROES VITALS START HERE */
+/* DIV HEROES VITALS START HERE 
 .heroes-vitals {
   position: relative;
   width: 8%;
@@ -62,14 +53,20 @@ p {
   margin: 1%;
 }
 
-/* DIV HEROES VITALS END HERE */
+ DIV HEROES VITALS END HERE */
 
 /* DIV HEROES SPELLS START HERE*/
 
+.heroes-spells {
+  position: relative;
+  /*background-color: red;*/
+  top: .5em;
+}
+
 .heroes-spells img {
-  height: 85%;
-  width: 85%;
   /*background-color: white;*/
+  max-width: 100%;
+  height: auto;
 }
 
 /* TRAIT */
@@ -223,10 +220,19 @@ p {
 
 /* DIV HEROES TALENTS START HERE */
 
+.heroes-talents {
+  position: relative;
+  height: 75vh;
+  width: 185vh;
+  background-image:radial-gradient(#623AD1FF, #230083FF);
+  border-style: double;
+  border-color: #624BAE;
+}
+
 .heroes-talents img {
   border-radius: 100px 100px 100px 100px;
-  height: 50px;
-  width: 50px;
+  max-width: 50px;
+  height: auto;
   cursor: pointer;
 }
 
@@ -234,7 +240,7 @@ p {
   /*background-color: red;*/
   width: 12.5%;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 4%;
   padding: .5em 0 0 .5em;
 }
@@ -293,7 +299,7 @@ p {
   /*background-color: blue;*/
   width: 12.5%;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 17%;
   padding: .5em 0 0 .5em;
 }
@@ -352,7 +358,7 @@ p {
   /*background-color: green;*/
   width: 12.5%;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 30%;
   padding: .5em 0 0 .5em;
 }
@@ -411,7 +417,7 @@ p {
   /*background-color: black;*/
   width: 12.5%;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 44%;
   padding: .5em 0 0 .5em;
 }
@@ -450,7 +456,7 @@ p {
   /*background-color: green;*/
   width: 12.5%;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 58%;
   padding: .5em 0 0 .5em;
 }
@@ -509,7 +515,7 @@ p {
   /*background-color: blue;*/
   width: 12.5%;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 71%;
   padding: .5em 0 0 .5em;
 }
@@ -568,7 +574,7 @@ p {
   /*background-color: red;*/
   width: 12.5%;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 84%;
   padding: .5em 0 0 .5em;
 }
@@ -628,9 +634,13 @@ p {
 /* TALENT CALCULATOR START HERE */
 
 .talents-calculator {
-  position: absolute;
-  width: 100%;
-  top: 100%;
+  position: relative;
+  top: 1em;
+  background-image:radial-gradient(#623AD1FF, #230083FF);
+  border-style: double;
+  border-color: #624BAE;
+  height: 25vh;
+  width: 185vh;
 }
 
 .talents-calculator .talent-title p {
@@ -656,23 +666,9 @@ p {
   left: 12%;
 }
 
-.talents-calculator .tier1 .talent-desc {
-  position: absolute;
-  width: 1000px;
-  top: -25%;
-  left: -10%;
-}
-
 .talents-calculator .tier2 {
   position: absolute;
   left: 24%;
-}
-
-.talents-calculator .tier2 .talent-desc {
-  position: absolute;
-  width: 1000px;
-  top: -25%;
-  left: -10%;
 }
 
 .talents-calculator .tier3 {
@@ -680,23 +676,9 @@ p {
   left: 36%;
 }
 
-.talents-calculator .tier3 .talent-desc {
-  position: absolute;
-  width: 1000px;
-  top: -25%;
-  left: -10%;
-}
-
 .talents-calculator .tier4 {
   position: absolute;
   left: 48%;
-}
-
-.talents-calculator .tier4 .talent-desc {
-  position: absolute;
-  width: 1000px;
-  top: -25%;
-  left: -10%;
 }
 
 .talents-calculator .tier5 {
@@ -704,23 +686,9 @@ p {
   left: 60%;
 }
 
-.talents-calculator .tier5 .talent-desc {
-  position: absolute;
-  width: 1000px;
-  top: -25%;
-  left: -10%;
-}
-
 .talents-calculator .tier6 {
   position: absolute;
   left: 72%;
-}
-
-.talents-calculator .tier6 .talent-desc {
-  position: absolute;
-  width: 1000px;
-  top: -25%;
-  left: -10%;
 }
 
 .talents-calculator .tier7 {
@@ -728,9 +696,10 @@ p {
   left: 84%;
 }
 
-.talents-calculator .tier7 .talent-desc {
-  position: absolute;
-  width: 1000px;
-  top: -25%;
-  left: -10%;
+.talents-calculator .talent-desc {
+  position: relative;
+  /*background-color: red;*/
+  top: -10em;
 }
+
+/* TALENT CALCULATOR END HERE */
