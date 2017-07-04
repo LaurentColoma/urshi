@@ -224,6 +224,7 @@ button:disabled {
   position: relative;
   height: 75vh;
   width: 185vh;
+  top: 15em;
   background-image:radial-gradient(#623AD1FF, #230083FF);
   border-style: double;
   border-color: #624BAE;
@@ -635,7 +636,7 @@ button:disabled {
 
 .talents-calculator {
   position: relative;
-  top: 1em;
+  top: 25em;
   background-image:radial-gradient(#623AD1FF, #230083FF);
   border-style: double;
   border-color: #624BAE;
