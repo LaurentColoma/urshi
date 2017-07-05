@@ -2691,7 +2691,7 @@ export class InMemoryDataService implements InMemoryDbService {
     	  tier7choice3: 'Mortal Wound', tier7choice3img: '/app/css/images/xul/talents/level20-3.png', desc7choice3: 'Hinc ille commotus ut iniusta perferens et indigna praefecti custodiam protectoribus mandaverat fidis. quo conperto Montius tunc quaestor acer quidem ',
     	  tier7choice4: 'Bone Spear', tier7choice4img: '/app/css/images/xul/talents/level20-4.png', desc7choice4: 'Hinc ille commotus ut iniusta perferens et indigna praefecti custodiam protectoribus mandaverat fidis. quo conperto Montius tunc quaestor acer quidem ',
     	  tier7choice5: 0, tier7choice5img: 0, desc7choice5: 0 },
-	{ id: 65, name: '2agara', desc: 'Specialist', life: 685, regen: 1.43, AA:26, AS: 1.43, armor: 0, Parmor: 0, Marmor: 0, scale: 4.0, scaleA: 0, scaleH: 0,
+	{ id: 65, name: 'Zagara', desc: 'Specialist', life: 685, regen: 1.43, AA:26, AS: 1.43, armor: 0, Parmor: 0, Marmor: 0, scale: 4.0, scaleA: 0, scaleH: 0,
 	  icone_img: '/app/css/images/zagara/icon/zagara.jpg',
 	  trait: 'Creep Tumor', trait_img: '/app/css/images/zagara/spells/creep-tumor.png',
 	  Q_spell: 'Baneling Barrage', Q_img: '/app/css/images/zagara/spells/baneling-barrage.png',
